@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="meu.css">
+        <title>Inscrição</title> 
+    </head>
+    <body id="fundo">
+        <div id="pag">
+            <center><h1>Formulario de Inscrição</h1></center>
+
+            <center><form id="form" name="formulario-de-inscrição">
+                <table>
+                    <tr>
+                        <td><label>Nome:</label></td>
+                        <td><input type="text" name="seu-nome" placeholder="insira seu nome aqui" id="Nome"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Sobrenome:</label></td>
+                        <td><input type="text" namw="seu-sobrenome" placeholder="insiraaqui seu sobrenome"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Data de nascimento:</label></td>
+                        <td><input type="date" name="data-de-nascimento" placeholder="insira sua data de nascimento"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>E-mail:</label></td>
+                        <td><input type="E-mail" name="seu-email" placeholder="insira seu e-mail aqui"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Telefone:</label></td>
+                        <td><input type="tel" name="seu-telefone" placeholder="insira seu numero aqui"/></td>
+                    </tr>
+                </table>
+
+            <center><h3>Escolha sua linguagem favorita</h3></center>
+
+                <table>
+                    <tr>
+                        <td class="tabela2"><input type="radio" id="HTML" name="linguagem-favorita" value="html"/></td>
+                        <td class="tabela2"><label for="HTML">HTML</label></td>
+                        <td class="tabela2"><input type="radio" id="CSS" name="linguagem-favorita" value="css"/></td>
+                        <td class="tabela2"><label for="CSS">CSS</label></td>
+                        <td class="tabela2"><input type="radio" id="JS" name="linguagem-favorita" value="jv"/></td>
+                        <td class="tabela2"><label for="Js">JavaScript</label></td>
+                    </tr>
+                </table>
+
+            <center><h3>Você ja aprendeu a:</h3></center>
+
+                <table>
+                    <tr class="tabela3">
+                        <td><input type="checkbox" name="conhecimento1" value="texto" id="conhecimento1"/></td>
+                        <td><label for="conhecimento1">Formatar textos</label></td>
+                    </tr>
+                    <tr class="tabela3">
+                        <td><input type="checkbox" name="conhecimento2" value="img" id="conhecimento2"/></td>
+                        <td><label for="conhecimento2">Imagens</label></td>
+                    </tr>
+                    <tr class="tabela3">
+                        <td><input type="checkbox" name="conhecimento3" value="link" id="conhecimento3"/></td>
+                        <td><label for="conhecimento3">Links</label></td>
+                    </tr>
+                    <tr class="tabela3">
+                        <td><input type="checkbox" name="conhecimento4" value="table" id="conhecimento4"/></td>
+                        <td><label for=4conhecimento1">Tabelas</label></td>
+                    </tr>
+                    <tr class="tabela3">
+                        <td><input type="checkbox" name="conhecimento5" value="form" id="conhecimento5"/></td>
+                        <td><label for="conhecimento5">Formularios</label></td>
+                    </tr>
+                    <tr class="tabela3">
+                        <td><input type="checkbox" name="conhecimento6" value="menu" id="conhecimento6"/></td>
+                        <td><label for="conhecimento6">Dropdown Menu</label></td>
+                    </tr>
+                </table>
+                <center><h3>Deixe o seu recado</h3></center>
+                <textarea name="comentario" rows="5" cols="50" placeholder="Deixe seu recado aqui" required></textarea>
+                                <br>
+                <input type="submit" value="Enviar" id="enviar" class="botões"/>
+                <input type="reset" class="botões"/>
+            </form></center>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+#fundo{
+    background-color: aqua;
+}
+
+#pag{
+    max-width: 800px;
+    margin: auto;
+    border: solid 2px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+h1{
+    font-style: oblique;
+    font-size: 60px;
+    margin-bottom: 30px;
+
+}
+
+h3{
+    font-style: oblique;
+    font-size: 35px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+td{
+    padding: 15px;
+    border: solid 1px;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+}
+
+table{
+    font-size: 30px;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.botões{
+    font-size: 25px;
+    padding: 8px;
+    background-color: rgb(248, 52, 38);
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botões:hover{
+    cursor: pointer;
+    background-color: rgb(18, 202, 18);
+}
